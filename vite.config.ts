@@ -8,7 +8,14 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
-})
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
+  build: {
+    outDir: "docs",
+    assetsDir:
+      process.env.NODE_ENV === "production"
+        ? "ethos-connect-vue-example-app"
+        : undefined,
+  },
+});
