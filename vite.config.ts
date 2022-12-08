@@ -11,11 +11,11 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  base:
+    process.env.NODE_ENV === "production"
+      ? "ethos-connect-vue-example-app"
+      : undefined,
   build: {
     outDir: "docs",
-    assetsDir:
-      process.env.NODE_ENV === "production"
-        ? "ethos-connect-vue-example-app"
-        : undefined,
   },
 });
