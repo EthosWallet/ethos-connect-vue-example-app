@@ -1,9 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import { PackagePlugin } from 'ethos-connect-vue';
+import { createApp } from "vue";
+import App from "./App.vue";
+// import { PackagePlugin } from 'ethos-connect';
 
-import './assets/main.css'
+import "./assets/main.css";
 
 createApp(App)
-    .use(PackagePlugin)
-    .mount('#app')
+  // .use(PackagePlugin)
+  .mount("#app");

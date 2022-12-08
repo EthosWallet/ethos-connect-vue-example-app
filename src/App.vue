@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import TheRestOfTheApp from "./components/TheRestOfTheApp.vue";
-import { Wrapper } from "ethos-connect-vue";
+import TheApp from "./components/TheApp.vue";
+import { EthosConnectProvider as EthosConnectProviderReact } from "ethos-connect";
+import { applyPureReactInVue } from "veaury";
+
+const EthosConnectProvider = applyPureReactInVue(EthosConnectProviderReact);
+const ethosConfiguration = {
+  apiKey: "ethos-connect-vue-example-app",
+};
 </script>
 
 <template>
-  <Wrapper msg="HEY">
-    <TheRestOfTheApp />
-  </Wrapper>
+  <EthosConnectProvider :ethosConfiguration="ethosConfiguration">
+    <TheApp />
+  </EthosConnectProvider>
 </template>
