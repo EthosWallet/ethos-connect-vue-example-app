@@ -3,7 +3,7 @@ import { EthosConnectStatus } from "ethos-connect";
 import { ethosForVue } from "@/lib/EthosConnectProvider";
 
 const {
-  value: { wallet },
+  context: { wallet },
 } = ethosForVue();
 const { status } = wallet;
 </script>

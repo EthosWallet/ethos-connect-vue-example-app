@@ -1,8 +1,5 @@
 import { ethos } from "ethos-connect";
-import {
-  applyPureReactInVue,
-  createCrossingProviderForVueInReact,
-} from "veaury";
+import { createCrossingProviderForVueInReact } from "veaury";
 
 const ethosConfiguration = {
   apiKey: "ethos-connect-vue-example-app",
@@ -10,9 +7,7 @@ const ethosConfiguration = {
 
 const [ethosForVue, EthosConnectVueProvider] =
   createCrossingProviderForVueInReact(() => ({
-    value: ethos.useValue(ethosConfiguration, () => {}),
+    context: ethos.useContext(ethosConfiguration, () => {}),
   }));
 
-const VueMissReact = applyPureReactInVue(EthosConnectVueProvider);
-
-export { ethosForVue, EthosConnectVueProvider, VueMissReact };
+export { ethosForVue, EthosConnectVueProvider };
