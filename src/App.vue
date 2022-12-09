@@ -1,16 +1,20 @@
 <script setup lang="ts">
-import TheApp from "./components/TheApp.vue";
-import { EthosConnectProvider as EthosConnectProviderReact } from "ethos-connect";
 import { applyPureReactInVue } from "veaury";
+import {
+  EthosConnectVueProvider,
+  VueMissReact,
+} from "./lib/EthosConnectProvider";
 
-const EthosConnectProvider = applyPureReactInVue(EthosConnectProviderReact);
-const ethosConfiguration = {
-  apiKey: "ethos-connect-vue-example-app",
-};
+import TheApp from "./components/TheApp.vue";
+
+const EthosConnectProvider = applyPureReactInVue(EthosConnectVueProvider);
+const VueMiss = VueMissReact;
 </script>
 
 <template>
-  <EthosConnectProvider :ethosConfiguration="ethosConfiguration">
-    <TheApp />
+  <EthosConnectProvider>
+    <VueMiss>
+      <TheApp />
+    </VueMiss>
   </EthosConnectProvider>
 </template>

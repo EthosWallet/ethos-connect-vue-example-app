@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import { ethos as ethos } from "ethos-connect";
+import { ethosForVue } from "../lib/EthosConnectProvider";
 import { applyPureReactInVue } from "veaury";
+import { ethos } from "ethos-connect";
 
-const addressWidget = applyPureReactInVue(ethos.components.AddressWidget);
+const AddressWidget = applyPureReactInVue(ethos.components.AddressWidget);
+
+const { value } = ethosForVue();
 </script>
 
 <template>
   <div className="header">
     <div>Ethos Connect Vue Example App</div>
-    <addressWidget />
+    <AddressWidget :externalContext="value" />
   </div>
 </template>
