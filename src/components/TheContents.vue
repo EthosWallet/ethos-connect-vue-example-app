@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import TheHeaderVue from "./TheHeader.vue";
+import TheWalletStatus from "./TheWalletStatus.vue";
 import TheWallet from "./TheWallet.vue";
 </script>
 
 <template>
-  <TheHeaderVue key="the-header" />
-  <TheWallet key="the-wallet" />
+  <TheHeaderVue />
+  <div className="row">
+    <div><TheWalletStatus /></div>
+    <div><TheWallet /></div>
+    <div></div>
+  </div>
 </template>

@@ -1,16 +1,18 @@
 <script setup lang="ts">
-import { EthosConnectStatus } from "ethos-connect";
 import { ethosForVue } from "@/lib/EthosConnectProvider";
 
 const {
-  context: { wallet },
+  context: {
+    wallet: { wallet },
+  },
 } = ethosForVue();
-const { status } = wallet;
 </script>
 
 <template>
-  <div v-if="status === EthosConnectStatus.Connected">
-    <div>Connected Wallet</div>
+  <div v-if="!!wallet" className="main">
+    <div className="wallet-name">
+      <img :src="wallet.icon" />
+      {{ wallet.name }}
+    </div>
   </div>
-  <div>{{ status }}</div>
 </template>
