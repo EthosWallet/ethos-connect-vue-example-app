@@ -253,9 +253,9 @@
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
 
 "@types/node@*":
-  version "18.11.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.12.tgz#89e7f8aa8c88abf432f9bd594888144d7dba10aa"
-  integrity sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==
+  version "18.11.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.13.tgz#dff34f226ec1ac0432ae3b136ec5552bd3b9c0fe"
+  integrity sha512-IASpMGVcWpUsx5xBOrxMj7Bl8lqfuTY7FKAnPmu5cHkfQVWF8GulWS1jbRqA934qZL35xh5xN/+Xe/i26Bod4w==
 
 "@types/node@^12.12.54":
   version "12.20.55"
@@ -1219,10 +1219,10 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-ethos-connect@^0.0.45:
-  version "0.0.45"
-  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.45.tgz#bcaab28649c5f2b06b8507b2b0d1d879b466001f"
-  integrity sha512-dY4gJmKf4/FJXhm5M2H3nuYuTq9SXXHKsgj7o447cd4pCxskw7fXW8Ib7TFz1e6FzBC9LzZwEIIt7G/tVbzvyQ==
+ethos-connect@^0.0.47:
+  version "0.0.47"
+  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.47.tgz#50ae8872c6aedd64e5e949b6117c99302bbdaa59"
+  integrity sha512-KUyyLo1yTobh2acXcT026e0RCtvVNIdfO8OyhmWz9VCcRBb7I8jaAUB8KSZfnEvoBMguL9X2BJufU+leLhK5TQ==
   dependencies:
     "@mysten/sui.js" "^0.15.0"
     "@mysten/wallet-adapter-all-wallets" "^0.3.0"
