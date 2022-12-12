@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import TheContents from "./TheContents.vue";
 import { ethosForVue } from "../lib/EthosConnectProvider";
-import { EthosConnectProviderForVue } from "ethos-connect";
+import { DetachedEthosConnectProvider } from "ethos-connect";
 import { applyPureReactInVue } from "veaury";
 
-const EthosConnectProvider = applyPureReactInVue(EthosConnectProviderForVue);
+const EthosConnectProvider = applyPureReactInVue(DetachedEthosConnectProvider);
 
 const { context } = ethosForVue();
 </script>
