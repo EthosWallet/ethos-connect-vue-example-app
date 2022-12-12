@@ -6,7 +6,7 @@ import TheWallet from "./TheWallet.vue";
 
 <template>
   <TheHeaderVue />
-  <div className="row">
+  <div className="row align-top">
     <div><TheWalletStatus /></div>
     <div><TheWallet /></div>
     <div></div>
