@@ -7,7 +7,7 @@ const ethosConfiguration = {
 
 const [ethosForVue, EthosConnectVueProvider] =
   createCrossingProviderForVueInReact(() => ({
-    context: ethos.useContext(ethosConfiguration, () => {}),
+    context: ethos.useContext({ ethosConfiguration }),
   }));
 
 export { ethosForVue, EthosConnectVueProvider };
