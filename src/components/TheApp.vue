@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import TheHeaderVue from "./TheHeader.vue";
+import TheContents from "./TheContents.vue";
+import { ethosForVue } from "../lib/EthosConnectProvider";
+import { EthosConnectProviderForVue } from "ethos-connect";
+import { applyPureReactInVue } from "veaury";
+
+const EthosConnectProvider = applyPureReactInVue(EthosConnectProviderForVue);
+
+const { context } = ethosForVue();
 </script>
 
 <template>
-  <div className="app">
-    <TheHeaderVue />
-  </div>
+  <EthosConnectProvider :context="context">
+    <TheContents />
+  </EthosConnectProvider>
 </template>
