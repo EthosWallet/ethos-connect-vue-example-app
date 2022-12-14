@@ -1,16 +1,13 @@
 <script setup lang="ts">
-import { applyPureReactInVue } from "veaury";
-import { EthosConnectVueProvider } from "./lib/EthosConnectProvider";
-
-import TheApp from "./components/TheApp.vue";
-
-const EthosConnectProvider = applyPureReactInVue(EthosConnectVueProvider);
+import TheContents from "./components/TheContents.vue";
 </script>
 
 <template>
   <EthosConnectProvider>
-    <div className="app">
-      <TheApp />
-    </div>
+    <EthosConnectBase>
+      <div className="app">
+        <TheContents />
+      </div>
+    </EthosConnectBase>
   </EthosConnectProvider>
 </template>

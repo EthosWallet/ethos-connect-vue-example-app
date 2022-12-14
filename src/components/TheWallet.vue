@@ -1,11 +1,8 @@
 <script setup lang="ts">
-import { ethosForVue } from "@/lib/EthosConnectProvider";
+import { ethosForVue } from "ethos-connect-vue-betax";
 
-const {
-  context: {
-    wallet: { wallet },
-  },
-} = ethosForVue();
+const { context } = ethosForVue() || {};
+const { wallet } = context?.wallet || {};
 
 const mint = () => {
   if (!wallet) return;

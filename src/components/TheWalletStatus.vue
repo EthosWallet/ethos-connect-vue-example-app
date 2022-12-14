@@ -1,11 +1,8 @@
 <script setup lang="ts">
-import { EthosConnectStatus } from "ethos-connect";
-import { ethosForVue } from "@/lib/EthosConnectProvider";
+import { ethosForVue, EthosConnectStatus } from "ethos-connect-vue-betax";
 
-const {
-  context: { wallet },
-} = ethosForVue();
-const { status } = wallet;
+const { context } = ethosForVue() || {};
+const { status } = context?.wallet || {};
 </script>
 
 <template>
