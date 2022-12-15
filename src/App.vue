@@ -4,10 +4,8 @@ import TheContents from "./components/TheContents.vue";
 
 <template>
   <EthosConnectProvider>
-    <EthosConnectBase>
-      <div className="app">
-        <TheContents />
-      </div>
-    </EthosConnectBase>
+    <div className="app">
+      <TheContents />
+    </div>
   </EthosConnectProvider>
 </template>
