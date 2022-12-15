@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ethosForVue } from "ethos-connect-vue-betax";
+import { ethosForVue } from "ethos-connect-vue";
 
 const { context } = ethosForVue() || {};
 const { wallet } = context?.wallet || {};

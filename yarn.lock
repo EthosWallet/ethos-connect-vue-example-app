@@ -1220,10 +1220,10 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-ethos-connect-vue-betax@^1.0.58:
-  version "1.0.58"
-  resolved "https://registry.yarnpkg.com/ethos-connect-vue-betax/-/ethos-connect-vue-betax-1.0.58.tgz#11cfe64a64adaba2bc34220db2a4ab2a369b5e15"
-  integrity sha512-VHLA96UqM1+J4NDASTefmhuqSCJWUleqi4hysI/Sg/9EtmqfvIOqBemJLkv/VuBG8e702sJasiLQbFC91Y7lbQ==
+ethos-connect-vue@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/ethos-connect-vue/-/ethos-connect-vue-0.0.15.tgz#3adde1fb18898e9cbfdcefc301e08f52fabdc415"
+  integrity sha512-8vtDEqv6AQ7Dod1hqSnoVrAq5z/D5lvtEpyYFtBWNBC8RAGy6Riuup0KJtjayi9ynfiWjiq7h/VdYX3Vx6/G7A==
   dependencies:
     ethos-connect "^0.0.55"
     react "^18.2.0"
