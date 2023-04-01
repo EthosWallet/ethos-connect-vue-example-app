@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { TransactionBlock } from "ethos-connect";
-import { ethosForVue } from "ethos-connect-vue";
+import { ethosForVue, TransactionBlock } from "ethos-connect-vue";
 import { ETHOS_EXAMPLE_CONTRACT } from "../constants";
 
 const { context } = ethosForVue() || {};
