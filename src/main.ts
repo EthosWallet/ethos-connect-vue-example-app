@@ -4,7 +4,7 @@ import { EthosConnectPlugin, type EthosConfiguration } from "ethos-connect-vue";
 import "./assets/main.css";
 
 const config: EthosConfiguration = {
-  apiKey: "vue-example-app",
+  apiKey: "8b6347aa-c5fb-460a-8fcc-efeb277f76fc",
 };
 
 createApp(App).use(EthosConnectPlugin, config).mount("#app");
