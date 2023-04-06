@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "ethos-connect": "^0.0.126",
     "ethos-connect-vue": "^0.0.33",
     "vue": "^3.2.41"
   },
