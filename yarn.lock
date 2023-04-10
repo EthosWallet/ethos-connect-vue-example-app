@@ -1480,35 +1480,16 @@ ethos-connect-vue@^0.0.35:
     react-dom "^18.2.0"
     veaury "^2.3.11"
 
-ethos-connect-vue@^0.0.36:
-  version "0.0.36"
-  resolved "https://registry.yarnpkg.com/ethos-connect-vue/-/ethos-connect-vue-0.0.36.tgz#debf1da9be1d455f8de9d038fd51b4e3da8ce8ef"
-  integrity sha512-+zND3dd82hjUr+G32BOiJf9Y/tklKeY1+lrro5ztLpj8LDb8frZEB5M8gILmRqrUzUAuwClSKgxgoGuBy0fNlA==
+ethos-connect-vue@^0.0.37:
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/ethos-connect-vue/-/ethos-connect-vue-0.0.37.tgz#df94ce6c0f3c0144e7458c4f26db38ae143585fe"
+  integrity sha512-rXek0Nb6E7Llc0I22I3aLLUljr/+Z8Vqy5Uap8PInAWgcnsUSaT3CyhyuhxcBMxfB8PKkn64Yg7olGwxxwOGoA==
   dependencies:
-    ethos-connect "^0.0.128"
+    ethos-connect "^0.0.129"
     ethos-connect-vue "^0.0.35"
     react "^18.2.0"
     react-dom "^18.2.0"
     veaury "^2.3.11"
-
-ethos-connect@^0.0.126:
-  version "0.0.126"
-  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.126.tgz#66f0457b92e30164a1f9cc59ccc5ca12e48c3f5a"
-  integrity sha512-68ytlww6xF5pVvjravyiP97+nlz23Wi7NYuOunCHsf3UcD1ShBRFUvXt36DyQQFcpbUOiptwDfPwb/viDF+BeA==
-  dependencies:
-    "@mysten/sui.js" "^0.31.0"
-    "@mysten/wallet-adapter-all-wallets" "^0.5.1"
-    "@mysten/wallet-adapter-base" "^0.7.1"
-    "@mysten/wallet-kit-core" "^0.4.1"
-    "@superstate/react" "^0.1.0"
-    bignumber.js "^9.1.1"
-    cross-fetch "^3.1.5"
-    encoding "^0.1.13"
-    eslint "^8.36.0"
-    lodash "^4.17.21"
-    qrcode "^1.5.1"
-    react-google-recaptcha "^2.1.0"
-    store2 "^2.14.2"
 
 ethos-connect@^0.0.127:
   version "0.0.127"
@@ -1529,10 +1510,10 @@ ethos-connect@^0.0.127:
     react-google-recaptcha "^2.1.0"
     store2 "^2.14.2"
 
-ethos-connect@^0.0.128:
-  version "0.0.128"
-  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.128.tgz#c015f932b57fa262691b2da96be9a84631a85496"
-  integrity sha512-qR3zzeAMEg5ISbcyZaMX8tAwwSq/+NGueyX7jeWICINdqluO8h/0rCA/fpnswO5QH+7LQydfL6eQReP8GRyrJg==
+ethos-connect@^0.0.129:
+  version "0.0.129"
+  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.129.tgz#eb52d5fdab45f0e4cc645bf46e090c32f35a9f62"
+  integrity sha512-Dro3h7Xfs/ngj48pHNFvhDcS/FU277Mzv9UoY6cR2tXK2fkLYC0BBD7K1YC0i734Gk/dIU3pubsmcxXv+YP4lQ==
   dependencies:
     "@mysten/sui.js" "^0.31.0"
     "@mysten/wallet-adapter-all-wallets" "^0.5.1"
