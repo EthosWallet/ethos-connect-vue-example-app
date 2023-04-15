@@ -1470,20 +1470,20 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-ethos-connect-vue@^0.0.42:
-  version "0.0.42"
-  resolved "https://registry.yarnpkg.com/ethos-connect-vue/-/ethos-connect-vue-0.0.42.tgz#1ffbd0433152b935b01680e34333da420c29836b"
-  integrity sha512-sPFW9M11LvgbHJRXjmBFL41qXkFgsZ3N0ABQqQwm2LnoeoAzz02qkgghhv0DMspZ3cbNitdtw+wYadtg/dnukA==
+ethos-connect-vue@^0.0.44:
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/ethos-connect-vue/-/ethos-connect-vue-0.0.44.tgz#e9e85745a92bf7dd65eda3007d58c9e034846e58"
+  integrity sha512-fuVV4LifumkiD2aDt+R+4Cu+0GOP43/AQg/dwTuzkDdR9mwApL9GV2xZOLRLKYWY4O04wn7edkM95f80aHlC2w==
   dependencies:
-    ethos-connect "^0.0.138"
+    ethos-connect "^0.0.139"
     react "^18.2.0"
     react-dom "^18.2.0"
     veaury "^2.3.11"
 
-ethos-connect@^0.0.138:
-  version "0.0.138"
-  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.138.tgz#503307962eefd18a81bcaa2fca0f40b3311f6667"
-  integrity sha512-AAvl8dxQBhv2ewWxxWqAo6kJoexXxDb95rdpb84wpaLkfMSaIwZ7bnKAFhuJzZAWt5kbn2iF9fNHoxwOF4vzkQ==
+ethos-connect@^0.0.139:
+  version "0.0.139"
+  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.139.tgz#9bad863a8c9868b6fc9fd486dd22f5812f1db842"
+  integrity sha512-1o/QnSDn5CvJZBfkb7o36tR78dTQIddOCnMf72EWDwKmfyUksPcOUCfiab6UqvczFQ9/BvPMp+45Zf47Z+7nVw==
   dependencies:
     "@mysten/sui.js" "^0.32.1"
     "@mysten/wallet-adapter-all-wallets" "^0.5.3"
